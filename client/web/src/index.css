@@ -1,0 +1,155 @@
+/** @format */
+
+@font-face {
+  font-family: "Gabarito";
+  src: url("./fonts/Gabarito/Gabarito-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  /* color: rgba(231, 32, 198, 0.796) */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #0b0b0b;
+}
+.gradient_violet {
+  background-image: linear-gradient(
+    to right,
+    #7800af,
+    #a836f5,
+    #e542d6,
+    #5c0383
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* .container canvas {
+    width: 1200px;
+    height: 800px !important ;
+  } */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(120, 86, 86); 
+}
+
+.logo
+{
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  margin-top: 2vw;
+}
+
+.explaint
+{
+  font-weight: bold;
+  color: #e7eae7;
+  line-height: 1.2vw;
+}
+
+.white
+{
+  color: white;
+}
+
+.btn
+{
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.card{
+  @apply bg-tertiary text-gray-300 rounded overflow-hidden font-normal shadow-md relative hover:shadow-lg;
+}
+
+.badge{
+  @apply bg-secondary text-orBack text-xs font-bold rounded-full absolute top-0 p-2 ml-2 mt-2;
+}
+.my-card {
+  background: #18181b !important;
+  height: auto !important;
+  padding-left: 10px;
+}
+
+.my-card span {
+  background: #18181b !important;
+}
+.my-card-title {
+  color: #925FF0 !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+.card-sub-title {
+  color: #d1d5db !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin-top: 8px !important;
+}
+
+.gJAGSz.active {
+  background: #925FF0 !important;
+  color: #18181b !important;
+}
+.gJAGSz{
+  color: #d1d5db !important;
+}
+
+.eczmnE:not(.using-icon).active {
+  background: #925FF0 !important;
+  border: 3px solid #18181b !important;
+}
+
+.erdVAe::before {
+  background: #2D2D2D !important;
+  width: 3px;
+  height: 2rem;
+  position: absolute;
+  content: '';
+  display: block;
+  left: 50%;
+  top: -1rem;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.erdVAe::after {
+  background: #2D2D2D !important;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  width: 3px;
+  z-index: 0;
+  transform: translateX(-50%);
+}
+
+.eczmnE:not(.using-icon) {
+  background: #2D2D2D !important;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+}
